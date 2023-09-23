@@ -1,0 +1,7 @@
+set constants
+
+prompt user to select vectors and take input
+
+dot product vectors
+
+print results to determined output file

@@ -1,0 +1,13 @@
+Define functions
+
+	write matrix to file function
+
+	iterate through array and print to file
+
+set constants
+
+initialize matrices
+
+fill matrices with required values using for loops to iterate
+
+print each matrix to its own file

@@ -1,0 +1,15 @@
+Set constants and define functions
+
+	read matrix from file function
+
+	transpose function
+
+	write matrix to file function
+
+prompt user to select matrix to transpose and get input 
+
+determine output file path
+
+call transpose function
+
+write output to file

@@ -1,0 +1,21 @@
+Define functions
+
+	write matrix to file function
+
+		iterate through array and print to file
+
+	read matrix from file function
+
+		read line by line and append to file
+
+set constants
+
+prompt user and collect input
+
+create resulting matrix with chosen matrices dimentions
+
+check if they can be multiplied
+
+multiply matrices
+
+print to file

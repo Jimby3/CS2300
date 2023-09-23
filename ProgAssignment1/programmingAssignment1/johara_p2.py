@@ -72,7 +72,7 @@ elif user_a == "Mat4":
     file_a = "johara_mat4.txt"
 
 else:
-    print("\nYou have entered a non-existant file\n\nStopping Program...\n")
+    print("\nYou have entered a non-existant file (Please enter in the form of : \"Mat1\")\n\nStopping Program...\n")
     quit()
 
 # determining file for B
@@ -89,7 +89,7 @@ elif user_b == "Mat4":
     file_b = "johara_mat4.txt"
 
 else:
-    print("\nYou have entered a non-existant file\n\nStopping Program...")
+    print("\nYou have entered a non-existant file (Please enter in the form of : \"Mat1\")\n\nStopping Program...\n")
     quit()
 
 

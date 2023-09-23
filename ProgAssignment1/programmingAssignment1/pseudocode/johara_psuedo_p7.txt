@@ -1,0 +1,1 @@
+do what i did in p5 and p6 but just sub my own functions for numpy functions
