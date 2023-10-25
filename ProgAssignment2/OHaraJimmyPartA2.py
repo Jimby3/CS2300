@@ -1,7 +1,7 @@
 import numpy as np
 
-FILE_PATH = "C:/UCCS/CS2300/ProgAssignment2/input-A21.txt"
-FILE_PATH2 = "C:/UCCS/CS2300/ProgAssignment2/input-A22.txt"
+FILE_PATH = "C:/UCCS/CS2300/ProgAssignment2/testA21.txt"
+FILE_PATH2 = "C:/UCCS/CS2300/ProgAssignment2/testA22.txt"
 
 # A 2.1
 print("\n\n=================================== A2.1 ===================================\n")
@@ -94,7 +94,7 @@ with open(FILE_PATH2, "r") as file:
     numbers = []
 
     for num in numbers_str:
-        linear_sequence_array.append(num)
+        linear_sequence_array.append(int(num))
 
 print(linear_sequence_array)
 
@@ -106,7 +106,7 @@ index = 0
 columns = []
 
 # creating a Nx4 array to then transpose to get correct way
-for num in encrypted_array:
+for num in linear_sequence_array:
 
     columns.append(num)
 
@@ -146,7 +146,8 @@ decoded_sequence = []
 
 for i in range(len(decoded_matrix)):
     for num in decoded_matrix[i]:
-        decoded_sequence.append(num)
+        if num != 0:
+            decoded_sequence.append(num)
 
 print(decoded_sequence)
 
@@ -154,7 +155,7 @@ print("\nGetting decoded plaintext by converting numbs to chars:")
 
 char_array = []
 for num in decoded_sequence:
-    char = chr(int(num))
+    char = chr(num)
     char_array.append(char)
 
 print(char_array)

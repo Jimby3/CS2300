@@ -1,4 +1,5 @@
 import numpy as np
+from sympy import Matrix
 
 # B2.1
 
@@ -25,14 +26,20 @@ flow_num_4 = input()
 # |   0 -x2  x3   0 | | x3 |    | flow_num_2 |
 # |   0   0  x3 -x4 | | x4 |    | flow_num_1 |
 
-augmented_matrix = np.array([[1, -1, 0, 0, flow_num_3], [1, 0, 0, -1, flow_num_4], [0, -1, 1, 0, flow_num_2], [0, 0, 1, -1, flow_num_1]])
+augmented_matrix = Matrix([[1, -1, 0, 0, flow_num_3], [1, 0, 0, -1, flow_num_4], [0, -1, 1, 0, flow_num_2], [0, 0, 1, -1, flow_num_1]])
 
-print(augmented_matrix)
+print(np.array(augmented_matrix))
+
+# A2.2
+
+rref_matrix = augmented_matrix.rref()
+
+print(rref_matrix)
 
 
 
-
-
+for i in range(4):
+    print("hi")
 
 
 
