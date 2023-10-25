@@ -1,0 +1,5 @@
+
+# ----------> Question #1: Why does this plaintext matrix have to be made up of column vectors of 4 <-------------------
+
+# Because the matrix we chose to do the encrypting is a 4x4, and it has to be able to multiply by it to encrypt
+# 4x(4) * (4)xN, the middle 2 nums must match

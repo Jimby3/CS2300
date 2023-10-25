@@ -73,3 +73,5 @@ matrix_b = np.transpose(np.array(matrix_b_transpose))
 
 print("\n4x" + str(len(matrix_b[0])) + " Matrix from Encrypted Message:")
 print(matrix_b)
+
+
