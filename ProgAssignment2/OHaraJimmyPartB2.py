@@ -28,7 +28,10 @@ flow_num_4 = input()
 
 augmented_matrix = Matrix([[1, -1, 0, 0, flow_num_3], [1, 0, 0, -1, flow_num_4], [0, -1, 1, 0, flow_num_2], [0, 0, 1, -1, flow_num_1]])
 
-print(np.array(augmented_matrix))
+coef_matrix = np.array([[1, -1, 0, 0], [1, 0, 0, -1], [0, -1, 1, 0], [0, 0, 1, -1]]).astype(float)
+solution_matrix = np.array([flow_num_3, flow_num_4, flow_num_2, flow_num_1]).astype(float)
+
+print(np.array(augmented_matrix).astype)
 
 # A2.2
 
@@ -36,10 +39,7 @@ rref_matrix = augmented_matrix.rref()
 
 print(rref_matrix)
 
-
-
-for i in range(4):
-    print("hi")
+print("\nThere are many solutions to this matrix")
 
 
 
