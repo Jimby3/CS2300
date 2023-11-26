@@ -1,0 +1,36 @@
+import libraries
+
+part 1
+
+    Make function to read matrices from files
+
+    set up path vars for files
+
+    get matrix e and d from files
+
+    calculate I - D
+
+    Calculate inverse of I - D
+
+    Calculate output matrix
+
+Part 2
+
+Setup path vars for files
+
+Read in ordered pair as matrix
+
+Setup matrix x
+
+setup matrix y
+
+
+setting up matx-transpose times matx
+
+setting up matx trans * maty
+
+getting the coefficient matrix
+
+Getting linear equation from coeff matrix
+
+graph equation + points
